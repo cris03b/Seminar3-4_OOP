@@ -3,14 +3,15 @@
 using namespace std;
 class Auto
 {
-private:
+protected:
 	int id;
 	string marke;
 	string modell;
 
 public:
 	Auto(int id, string marke, string modell);
-
+	Auto() {
+	}
 		// getters
 	int getId();
 	string getMarke();
